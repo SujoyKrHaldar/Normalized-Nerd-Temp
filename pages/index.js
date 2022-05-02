@@ -10,7 +10,8 @@ export default function Home() {
         <title>Normalized nerd | Home</title>
         <meta
           name="description"
-          content="Hello, People from the future! Welcome to Normalized Nerd."
+          content="Hello, People from the future! Welcome to Normalized Nerd. 
+          Start learning with me by Subscribing to this channel."
         />
       </Head>
 

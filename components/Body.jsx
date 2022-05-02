@@ -30,6 +30,15 @@ function Body() {
         </div>
 
         <div className="container">
+          {/* <div className="play_btn_cover">
+            <a
+              className="play_btn"
+              href="https://www.youtube.com/c/NormalizedNerd"
+              target="_blank"
+            >
+              <BsFillPlayFill />
+            </a>
+          </div> */}
           <div className="section_content">
             <div className="profile_pic">
               <img src="/profile_pic.jpg" alt="Sujon Dutta portfolio" />

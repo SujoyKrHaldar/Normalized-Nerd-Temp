@@ -141,7 +141,8 @@ img {
 }
 
 .social_links,
-.links {
+.links,
+.media_icons {
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -330,3 +331,43 @@ a.play_btn {
 /*******************************
 -------- media Queries----------
 ********************************/
+
+/*********Body**********/
+
+/*********Footer*************/
+
+@media screen and (max-width: 1024px) {
+  .footer {
+    background-color: white;
+    position: relative;
+  }
+  .footer .container {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+  }
+  .links {
+    justify-content: space-between;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 668px) {
+  .social_links {
+    background: white;
+    padding: 0;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .footer .container {
+    padding: 2rem;
+  }
+}
+@media screen and (max-width: 400px) {
+  .links {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+  }
+}
