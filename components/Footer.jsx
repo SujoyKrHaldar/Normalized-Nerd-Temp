@@ -17,45 +17,63 @@ function Footer() {
 
           <div className="links">
             <div className="social_links">
-              <p>Follow me on :</p>
+              <p>Find me on :</p>
               <a
+                style={{ fontSize: "2rem" }}
                 href="https://www.youtube.com/c/NormalizedNerd"
                 target="_blank"
               >
                 <AiFillYoutube />
               </a>
-              <a
+              {/* <a
                 href="https://scholar.google.com/citations?user=Fy5SnlgAAAAJ"
                 target="_blank"
               >
                 <SiGooglescholar />
-              </a>
+              </a> */}
               <a
                 href="https://www.linkedin.com/in/sujandutta99/"
                 target="_blank"
               >
                 <FaLinkedin />
               </a>
-              <a target="_blank" href="https://github.com/Suji04">
+              <a
+                style={{ fontSize: "1.5rem" }}
+                target="_blank"
+                href="https://github.com/Suji04"
+              >
                 <AiFillGithub />
               </a>
-              <a href="https://medium.com/@sujan99dutta" target="_blank">
+              <a
+                style={{ fontSize: "1.8rem" }}
+                href="https://medium.com/@sujan99dutta"
+                target="_blank"
+              >
                 <AiOutlineMedium />
               </a>
               <a
+                style={{ fontSize: "1.5rem" }}
                 href="https://www.instagram.com/normalizednerd/"
                 target="_blank"
               >
                 <AiFillInstagram />
               </a>
-              <a href="https://twitter.com/normalized_nerd" target="_blank">
+              <a
+                style={{ fontSize: "1.5rem" }}
+                href="https://twitter.com/normalized_nerd"
+                target="_blank"
+              >
                 <AiOutlineTwitter />
               </a>
             </div>
 
             <div className="social_links">
               <p>Join me on :</p>
-              <a href="https://discord.com/invite/39YYU936RC" target="_blank">
+              <a
+                style={{ fontSize: "1.8rem" }}
+                href="https://discord.com/invite/39YYU936RC"
+                target="_blank"
+              >
                 <FaDiscord />
               </a>
             </div>
