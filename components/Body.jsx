@@ -9,6 +9,7 @@ function Body() {
       <div className="section">
         <div className="section_cover">
           <Image
+            priority
             src="/Landing.png"
             alt="Sujon Dutta portfolio"
             layout="fill"
@@ -30,15 +31,6 @@ function Body() {
         </div>
 
         <div className="container">
-          {/* <div className="play_btn_cover">
-            <a
-              className="play_btn"
-              href="https://www.youtube.com/c/NormalizedNerd"
-              target="_blank"
-            >
-              <BsFillPlayFill />
-            </a>
-          </div> */}
           <div className="section_content">
             <div className="profile_pic">
               <img src="/profile_pic.jpg" alt="Sujon Dutta portfolio" />
@@ -53,7 +45,14 @@ function Body() {
             <p>
               I love to create educational videos on Machine Learning and
               Creative Coding. Start learning with me by{" "}
-              <span className="span_red">Subscribing</span> to this channel{" "}
+              <span className="span_red">Subscribing</span> to this{" "}
+              <a
+                className="channel"
+                href="https://www.youtube.com/c/NormalizedNerd"
+                target="_blank"
+              >
+                Channel
+              </a>{" "}
               <span className="span_red">❤</span>
             </p>
             <div className="link_btns">
